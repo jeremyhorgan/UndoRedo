@@ -4,7 +4,7 @@
 		<TargetFramework>net6.0</TargetFramework>
 		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
-		<AnalysisMode>AllEnabledByDefault</AnalysisMode>
+		<AnalysisMode>All</AnalysisMode>
 		<IsPackable>false</IsPackable>
 	</PropertyGroup>
 
@@ -26,6 +26,12 @@
 	<ItemGroup>
 		<ProjectReference Include="..\UndoRedo.Core\UndoRedo.Core.csproj" />
 		<ProjectReference Include="..\UndoRedo.WinForms\UndoRedo.WinForms.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="GlobalSuppressions.cs">
+	    <Generator></Generator>
+	  </Compile>
 	</ItemGroup>
 
 </Project>
